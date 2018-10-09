@@ -1,4 +1,5 @@
 import { CalculatorPage } from '../calculator/calculator';
+import { EvilPage } from '../evil/evil';
 import { Component } from '@angular/core';
 import { AboutPage } from '../about/about';
 
@@ -7,6 +8,7 @@ import { AboutPage } from '../about/about';
 })
 export class TabsPage {
     calculatorTab = CalculatorPage;
+    evilTab = EvilPage;
   aboutTab = AboutPage;
 
   constructor() {

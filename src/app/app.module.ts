@@ -1,4 +1,5 @@
 import { CalculatorPage } from '../pages/calculator/calculator';
+import { EvilPage } from '../pages/evil/evil';
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
@@ -15,6 +16,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     AboutPage,
     CalculatorPage,
+    EvilPage,
     TabsPage
   ],
   imports: [
@@ -26,6 +28,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     AboutPage,
     CalculatorPage,
+    EvilPage,
     TabsPage
   ],
   providers: [
