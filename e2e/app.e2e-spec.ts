@@ -20,7 +20,19 @@ describe('App', () => {
 
         it('should have an input Weight (kg)', () => {
             page.getWeightInput().then(weightinput => {
-            expect(weightinput).toEqual('Weight (kg)');
+                expect(weightinput).toEqual('Weight (kg)');
+            });
+        });
+
+        it('should have an input Height (cm)', () => {
+            page.getHeightInput().then(heightinput => {
+                expect(heightinput).toEqual('Height (cm)');
+            });
+        });
+
+        it('should have a button called Calculate', () => {
+            page.getButtonInput().then(buttoninput => {
+                expect(buttoninput).button('calculate').click()
             });
         });
     })

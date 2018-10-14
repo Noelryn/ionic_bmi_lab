@@ -11,3 +11,4 @@
 - Protractor cheatsheet: https://gist.github.com/javierarques/0c4c817d6c77b0877fda
 - Jasmine cheatsheets: https://devhints.io/jasmine
 - Got the the weight test to pass with the help of cohart Rupert Lion.
+ 
