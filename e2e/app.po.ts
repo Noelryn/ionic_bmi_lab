@@ -13,4 +13,10 @@ export class Page {
  getPageOneTitleText() {
     return element(by.tagName('ion-title')).getText();
   }
+
+  getWeightInput() {
+    return element(by.id('lbl-0')).getText();
+}
+
+
 }
