@@ -24,7 +24,7 @@ import { browser, by, element } from 'protractor';
     }    
 
     getButtonInput() {
-        return element(by.tagName('Calculate'))
-    } 
+        return element(by.tagName('Calculate')).click();
+    }
 
 }

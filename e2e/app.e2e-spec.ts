@@ -31,8 +31,8 @@ describe('App', () => {
         });
 
         it('should have a button called Calculate', () => {
-            this.Button().then(buttoninput => {
-                expect(buttoninput).toEqual('Calculate')
+            page.getButtonInput().then(buttoninput => {
+            expect(buttoninput).toEqual('Calculate');
             });
         });
     })
