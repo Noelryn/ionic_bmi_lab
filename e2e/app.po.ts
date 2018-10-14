@@ -26,4 +26,12 @@ import { browser, by, element } from 'protractor';
     getButtonInput() {
         return element(by.buttonText('Calculate')).getText();
     }
+
+    results_card_header() {
+        return element(by.css('ion-card-header')).getText();
+    }
+    
+    results_card_content() {
+        return element(by.css('ion-card-content')).getAttribute('textContent');
+    }
 }
