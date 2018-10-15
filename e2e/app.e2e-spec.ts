@@ -41,7 +41,5 @@ describe('App', () => {
                 expect(page.results_card_header()).toContain('BMI Calculation');
                 expect(page.results_card_content()).toContain('Person: Weight 80 kg, Height 180 cm, BMI: 24.69, You are Normal');
             });
-        });
-    })
-    
+        }); 
 });
