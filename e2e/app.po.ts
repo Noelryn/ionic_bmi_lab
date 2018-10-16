@@ -27,11 +27,5 @@ import { browser, by, element } from 'protractor';
         return element(by.buttonText('Calculate')).getText();
     }
 
-    getCardContent() {
-        return element(by.css('ion-card-header')).getText();
-    }
     
-    // results_card_content() {
-    //     return element(by.css('ion-card-content')).getAttribute('textContent');
-    // }
 }
